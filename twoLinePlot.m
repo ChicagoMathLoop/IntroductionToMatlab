@@ -1,0 +1,10 @@
+figure('Color','White')
+t = linspace(0,2*pi)
+plot(sin(t))
+hold on
+plot(cos(t),'r--')
+xlabel('Time (seconds)')
+ylabel('Function value')
+title('Sin and Cos functions')
+legend('sin','cos')
+ylim([-1.4 1.4])
