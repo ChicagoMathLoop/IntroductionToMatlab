@@ -1,5 +1,0 @@
-load classGrades
-gradesOnly = namesAndGrades(:,2:end);
-assignmentMeans = nanmean(gradesOnly);
-meanMatrix = ones([1 7])' * assignmentMeans;
-curvedGrads = 3.5
