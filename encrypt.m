@@ -12,7 +12,7 @@ decode_cipher = temp(:,2);
 
 decoded = encoded(decode_cipher);
 
-disp(['Original :', original]);
-disp(['Encoded :', encoded]);
-disp(['Decoded :', decoded]);
+disp(['Original: ', original]);
+disp(['Encoded: ', encoded]);
+disp(['Decoded: ', decoded]);
 disp(['Decoded correctly (1 true, 0 false): ', num2str(strcmp(original,decoded))]);
